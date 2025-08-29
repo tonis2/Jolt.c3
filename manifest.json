@@ -1,0 +1,14 @@
+
+{ 
+  "provides" : "jolt",
+  
+  "targets" : {
+    "macos-x64" : {
+        "linked-libs" : ["lib/libjolt.a"]
+    },
+    "linux-x64" : {
+        "linked-libs" : ["lib/libjolt.a"]
+    },
+    "windows-x64" : {}
+  }
+}
